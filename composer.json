@@ -3,15 +3,15 @@
     "license": "OSL-3.0",
     "description": "Magento 2 module for RobinHQ integration. Provides API endpoints for RobinHQ dynamic API",
     "require": {
-        "php": ">=7.4 <8.2",
+        "php": "*",
         "emico/robinhq-lib": "^1.0.6|^2.0",
-        "magento/module-customer": "101.*|102.*|103.*",
-        "magento/module-catalog": "102.*|103.*|104.*",
-        "magento/module-sales": "101.*|102.*|103.*",
-        "magento/module-config": "101.*",
-        "magento/framework": "101.*|102.*|103.*",
-        "laminas/laminas-diactoros": "^2.0",
-        "webmozart/assert": "^1.4",
+        "magento/module-customer": "*",
+        "magento/module-catalog": "*",
+        "magento/module-sales": "*",
+        "magento/module-config": "*",
+        "magento/framework": "*",
+        "laminas/laminas-diactoros": "*",
+        "webmozart/assert": "*",
         "ext-json": "*"
     },
     "suggest": {
